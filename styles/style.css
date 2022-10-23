@@ -89,14 +89,23 @@ h1 {
 }
 
 .main-block-guitar h2,
-.main-block-piano h2 {
+.main-block-piano h2,
+.main-block-saxophone h2 {
   color: #fecea8;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
+}
+.main-block-guitar h2,
+.main-block-piano h2 {
   margin-top: 5em;
 }
+.main-block-saxophone h2 {
+  margin-top: 50px;
+}
+
 .main-block-guitar p,
-.main-block-piano p {
+.main-block-piano p,
+.main-block-saxophone p {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
@@ -116,5 +125,11 @@ h1 {
   margin-bottom: 2em;
 }
 .piano {
+  width: 500px;
+}
+.saxophone-image {
+  filter: grayscale(100%);
+}
+.saxophone {
   width: 500px;
 }
