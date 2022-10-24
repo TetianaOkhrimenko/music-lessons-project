@@ -103,9 +103,9 @@ h1 {
   margin-top: 50px;
 }
 
-.main-block-guitar p,
-.main-block-piano p,
-.main-block-saxophone p {
+.guitar-lessons-text,
+.piano-lessons-text,
+.saxophone-lessons-text {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
@@ -132,6 +132,16 @@ h1 {
 }
 .saxophone {
   width: 500px;
+}
+.contact-detail {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  margin-top: 2em;
+}
+.contact-detail a {
+  text-decoration: none;
+  color: white;
 }
 .coder {
   color: white;
