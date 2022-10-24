@@ -133,3 +133,16 @@ h1 {
 .saxophone {
   width: 500px;
 }
+.coder {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+.coder a {
+  color: white;
+  text-decoration: none;
+}
+.coder a:hover {
+  cursor: pointer;
+  color: #fecea8;
+}
